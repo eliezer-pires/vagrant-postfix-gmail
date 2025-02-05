@@ -1,0 +1,1 @@
+{"rsync":{"/home/configs_vm":{"guestpath":"/home/configs_vm","hostpath":"/home/demeloembp/Documents/DevOps/vagrant-postfix-gmail/configs","disabled":false,"__vagrantfile":true,"owner":"vagrant","group":"vagrant"}}}
