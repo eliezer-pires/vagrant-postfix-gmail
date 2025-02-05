@@ -70,7 +70,7 @@ echo "smtp_sasl_password_maps = hash:$SASL_PASSWD_FILE" | tee -a $MAIN_CF
 
 # Criar arquivo de autenticação SMTP
 log "Criando arquivo de autenticação SMTP..."
-bash -c "echo '[smtp.gmail.com]:587 eliezerpiresti@gmail.com:slan rrob bluq ojci' > $SASL_PASSWD_FILE"
+bash -c "echo '[smtp.gmail.com]:587 SEUEMAIL@gmail.com:SEUTOKEN' > $SASL_PASSWD_FILE"
 
 # Definir permissões e compilar o mapa de senhas
 chmod 600 $SASL_PASSWD_FILE
